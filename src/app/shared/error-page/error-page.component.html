@@ -1,44 +1,47 @@
-<p>error-page works!</p>
+<mat-sidenav-container fullscreen>
+  
+        
+    <h1>404</h1>
+    <h1>Página no encontrada</h1>  
 
-<ul>
-    <li>
-        <a routerLink="/auth/login">
-            Ir a login
-        </a> 
-    </li>
-    <li>
-        <a routerLink="/auth/registro">
-            Ir a registro
-        </a> 
-    </li>
 
-    <li>
-        <a routerLink="/heroes/listado">
-            Ir al listado de heroes
-        </a> 
-    </li>
 
-    <li>
-        <a routerLink="/heroes/agregar">
-            Ir a Agregar heroe
-        </a> 
-    </li>
+    <mat-nav-list>
+ 
+        <a routerLink="/auth/login"
+            mat-list-item>
+            <mat-icon mat-list-icon>login</mat-icon>
+            <span>Iniciar sesión</span>
+        </a>
 
-    <li>
-        <a routerLink="/heroes/editar/1">
-            Ir a Editar heroe
-        </a> 
-    </li>
+        <!-- <a routerLink="/auth/registro"
+            mat-list-item>
+            <mat-icon mat-list-icon>manage_accounts</mat-icon>
+            <span>Registrarse</span>
+        </a> -->
 
-    <li>
-        <a routerLink="/heroes/buscar">
-            Ir Buscar heroe
-        </a> 
-    </li>
+        <a routerLink="/heroes/listado"
+            mat-list-item>
+            <mat-icon mat-list-icon>list</mat-icon>
+            <span>Ir al listado de héroes</span>
+        </a>
 
-    <li>
-        <a routerLink="/heroes/1">
-            Ir al heroe 1
-        </a> 
-    </li>
-</ul>
+        <a routerLink="/heroes/agregar"
+            mat-list-item>
+            <mat-icon mat-list-icon>note_add</mat-icon>
+            <span>Agregar héroe</span>
+        </a>
+
+        <a routerLink="/heroes/buscar"
+            mat-list-item>
+            <mat-icon mat-list-icon>search</mat-icon>
+            <span>Buscar Héroe</span>
+        </a>
+      
+    </mat-nav-list>
+
+        
+
+</mat-sidenav-container>
+
+
