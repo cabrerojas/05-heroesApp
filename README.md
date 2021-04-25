@@ -4,6 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Intall `npm install -g json-server`
+
+Run `json-server --watch db.json` for a dev server to mount the backend server. 
+
+More informaticon in: (https://www.npmjs.com/package/json-server).
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
